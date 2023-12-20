@@ -1,0 +1,629 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+
+    background: #d0d0db;
+/* 
+    font-family: 'Montserrat', sans-serif;
+font-family: 'Oswald', sans-serif;
+font-family: 'Playfair Display', serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Raleway', sans-serif; */
+
+
+}
+
+::selection {
+
+    background-color: #d53c3c;
+    color: #fff;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.container2 {
+
+    max-width: 930px;
+    margin: 0 auto;
+}
+
+
+
+
+
+
+.row {
+
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.col-1 {
+    width: 8.33%;
+}
+
+
+.col-2 {
+    width: 16.66%;
+}
+
+.col-3 {
+    width: 25%;
+}
+
+.col-4 {
+    width: 33.33%;
+}
+
+.col-5 {
+    width: 41.66%;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.col-7 {
+    width: 58.33%;
+}
+
+.col-8 {
+    width: 66.66%;
+}
+
+.col-9 {
+
+    width: 75%;
+}
+
+
+.col-10 {
+    width: 83.33%;
+}
+
+.col-11 {
+    width: 91.66%;
+}
+
+
+.col-12 {
+    width: 100%;
+}
+
+
+.registration {
+ margin-top: 50px;
+ border: 2px solid #062498;
+ padding: 40px;
+ outline: 7px solid #13d430;
+ margin-left: auto;
+ margin-right: auto;
+ width: 1020px;
+ margin-bottom: 50px;
+}
+
+.registration h1{
+
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-align: center;
+    color: #090de8; 
+}
+
+.registration img{
+
+    width: 140px;
+    height: 140px;
+    margin-left: 400px;
+    margin-top: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+     border-radius: 50%;
+     cursor: pointer;
+}
+
+.registration label{
+
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 600; 
+    color: #b15151;
+}
+
+.registration input[type=text]{
+
+    width: 650px;
+    background: #fff;
+    font-size: 16px;
+    padding: 8px;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    color: #595c5f;
+    font-family: 'Poppins', sans-serif;
+    transition: .2s linear;
+}
+
+.registration input[type=text]:focus{
+
+    background: #d53c3c;
+    color: #fff;
+
+}
+
+.registration .main{
+
+    display: flex;
+   
+}
+
+.registration input[type=number]{
+  
+    width: 650px;
+    background: #fff;
+    font-size: 16px;
+    padding: 8px;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    color: #595c5f;
+    font-family: 'Poppins', sans-serif;
+    transition: .2s linear;
+}
+
+.registration input[ type=number]:focus{
+
+    background: #d53c3c;
+    color: #fff;
+}
+
+.registration input[type=date]{
+  
+    width: 650px;
+    background: #fff;
+    font-size: 16px;
+    padding: 8px;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    color: #595c5f;
+    font-family: 'Poppins', sans-serif;
+    transition: .2s linear;
+}
+
+.registration input[type=date]:focus{
+  
+    background: #d53c3c;
+    color: #fff;
+}
+
+.registration input[type=email]{
+  
+    width: 650px;
+    background: #fff;
+    font-size: 16px;
+    padding: 8px;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    color: #595c5f;
+    font-family: 'Poppins', sans-serif;
+    transition: .2s linear;
+}
+
+.registration input[type=email]:focus{
+
+    background: #d53c3c;
+    color: #fff;
+}
+
+.registration input[type=password]{
+  
+    width: 650px;
+    background: #fff;
+    font-size: 16px;
+    padding: 8px;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    color: #595c5f;
+    font-family: 'Poppins', sans-serif;
+    transition: .2s linear;
+}
+
+.registration input[type=password]:hover{
+  
+    background: #d53c3c;
+    color: #fff;
+}
+
+
+
+
+.registration input[ type=tel]{
+  
+    width: 650px;
+    background: #fff;
+    font-size: 16px;
+    padding: 8px;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    color: #595c5f;
+    font-family: 'Poppins', sans-serif;
+    transition: .2s linear;
+}
+
+.registration input[ type=tel]:focus{
+  
+    background: #d53c3c;
+    color: #fff;
+}
+
+.registration textarea{
+      
+    width: 650px;
+    height: 150px;
+    background: #fff;
+    font-size: 16px;
+    padding: 8px;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    color: #595c5f;
+    font-family: 'Poppins', sans-serif;
+    transition: .2s linear;
+}
+
+.registration textarea:focus{
+      
+    background: #d53c3c;
+    color: #fff;
+}
+
+.registration  .form-control{
+
+    width: 650px;
+   
+    background: #fff;
+    font-size: 16px;
+    padding: 8px;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    color: #595c5f;
+    font-family: 'Poppins', sans-serif;
+    transition: .2s linear;
+}
+
+.registration  .form-control:focus{
+
+    background: #d53c3c;
+    color: #fff;
+}
+
+.registration .form-check-label{
+
+    color: #000;
+} 
+
+.registration input[ type=submit]{
+
+    padding: 10px 120px;
+    color: #fff;
+    background: #d53c3c;
+    font-size: 16px;
+    font-weight: 500;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    transition: .2s linear;
+    margin-left: 120px;
+}
+
+.registration input[ type=submit]:hover{
+ 
+    background: #000;
+    color: #fff;
+}
+
+.registration input[ type=reset]{
+ 
+    padding: 10px 120px;
+    color: #fff;
+    background: #d53c3c;
+    font-size: 16px;
+    font-weight: 500;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    transition: .2s linear;
+    margin-left: 20px;
+}
+
+.registration input[ type=reset]:hover{
+  
+    background: #000;
+    color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and ( max-width:1024px){
+
+    .container{
+
+        max-width: 1024px;
+        margin: 0 auto;
+    }
+
+
+    .registration{
+
+        margin-top: 30px;
+        padding: 30px;
+        width: 962px;
+        margin-bottom: 30px;
+    }
+}
+
+
+@media screen and ( max-width:991px){
+  
+    .container{
+
+        max-width: 991px;
+        margin: 0 auto;
+    }
+
+    .registration{
+
+        width: 682px;
+        outline: 5px solid #1f93b0;
+    }
+
+    .registration h1{
+
+        font-size: 20px;
+    }
+
+
+    .registration img{
+
+        width: 120px;
+        height: 120px;
+        margin-left: 240px;
+    }
+
+    .registration label{
+
+        font-size: 15px;
+        font-weight: 500;
+    }
+
+    .registration  input[type=text]{
+
+        font-size: 15px;
+        padding: 5px;
+        width: 400px;
+    }
+
+    .registration input[type=number]{
+
+        font-size: 15px;
+        padding: 5px;
+        width: 400px;
+    }
+
+    .registration input[type=date]{
+
+        font-size: 15px;
+        padding: 5px;
+        width: 400px;
+    }
+
+    .registration input[type=email]{
+   
+        font-size: 15px;
+        padding: 5px;
+        width: 400px;
+    }
+
+    .registration input[type=password]{
+         
+        
+        font-size: 15px;
+        padding: 5px;
+        width: 400px;
+    }
+
+    .registration input[ type=tel]{
+
+        font-size: 15px;
+        padding: 5px;
+        width: 400px;
+    }
+
+    .registration textarea{
+
+        font-size: 15px;
+        padding: 5px;
+        width: 400px;
+        height: 120px;
+    }
+
+    .registration .form-control{
+
+        font-size: 15px;
+        padding: 5px;
+        width: 400px;
+    }
+
+    .registration input[ type=submit]{
+
+        margin-left: 100px;
+        padding: 10px 70px;
+        font-size: 15px;
+    }
+
+    .registration input[ type=reset]{
+
+        margin-left: 20px;
+        padding: 10px 70px;
+        font-size: 15px;
+    }
+}
+
+
+@media screen and (max-width:767px){
+
+    .container{
+
+        max-width: 767px;
+        margin: 0 auto;
+    }
+
+    [class*="col-"]{
+
+        width: 100%;
+    }
+
+    .registration{
+
+        width: 300px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        padding: 20px;
+    }
+
+    .registration h1 {
+        font-size: 17px;
+    }
+
+    .registration img{
+
+        margin-left: 70px;
+        width: 110px;
+        height: 110px;
+    }
+
+    .registration label{
+
+
+        font-size: 14px;
+    }
+
+    .registration input[type=text]{
+
+        width: 260px;
+        font-size: 14px;
+
+    }
+
+
+
+    .registration input[type=number]{
+     
+        width: 260px;
+        font-size: 14px;
+
+    }
+
+    .registration input[type=date]{
+      
+        width: 260px;
+        font-size: 14px;
+
+    }
+
+    .registration input[type=email]{
+          
+        width: 260px;
+        font-size: 14px;
+
+    }
+
+    .registration input[type=password]{
+          
+        width: 260px;
+        font-size: 14px;
+
+    }
+
+    .registration input[ type=tel]{
+        
+        width: 260px;
+        font-size: 14px;
+
+    }
+
+    .registration textarea{
+         
+        width: 260px;
+        height: 100px;
+        font-size: 14px;
+
+    }
+
+    .registration .form-control{
+
+        width: 260px;
+        font-size: 14px;
+    }
+
+    .registration .main{
+
+        display: block;
+    }
+
+    .registration input[ type=submit]{
+
+        margin-left: 0;
+        
+    }
+
+    .registration input[ type=reset]{
+         
+        
+        margin-left: 0;
+        margin-top: 10px;
+        padding: 10px 80px;
+       
+    }
+}
+
+
